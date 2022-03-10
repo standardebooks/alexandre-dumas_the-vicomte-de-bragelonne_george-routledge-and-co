@@ -44,8 +44,37 @@
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-US</dc:language>
+		<!-- Vicomte de Bragelonne, chapters 1-75 -->
 		<dc:source>https://www.gutenberg.org/ebooks/2609</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<!-- Ten Years Later, chapters 76-140 -->
+		<dc:source>https://www.gutenberg.org/ebooks/2681</dc:source>
+		<!-- Louise de la Valliere, chapters 141-208 -->
+		<dc:source>https://www.gutenberg.org/ebooks/2710</dc:source>
+		<!-- The Man in the Iron Mask, chapters 209-269, Epilogue, Death of d'Artagnan -->
+		<dc:source>https://www.gutenberg.org/ebooks/2759</dc:source>
+		<!-- Works of Alexandre Dumas, Peter Fenelon Collier, New York, 1893 -->
+		<!-- Volume 1, chapters 1-133 -->
+		<dc:source>https://archive.org/details/worksalexdumas03dumauoft</dc:source>
+		<!-- Volume 2, chapters 134-269, Epilogue, Death of d'Artagnan -->
+		<dc:source>https://archive.org/details/worksalexdumas04dumauoft</dc:source>
+		<!-- Dumas Romances, Handy Library Edition, Little Brown -->
+		<!-- Volume 1, chapters 1-70 (Dumas Romances -->
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.460891</dc:source>
+		<!-- Volume 2, chapters 71-132 -->
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.460780</dc:source>
+		<!-- Volume 3, chapters 133-203 -->
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.460924</dc:source>
+		<!-- Volume 4, chapters 204-269, Epilogue, Death of d'Dartagnan -->
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.460835</dc:source>
+		<!-- Works of Alexandre Dumas, P.F. Collier and Son, New York, 1902 -->
+		<!-- Vicomte de Bragelonne, Volume 1, chapters 1-75 -->
+		<dc:source>https://archive.org/details/worksofdumas14dumaiala</dc:source>
+		<!-- Ten Years Later, Volume 2, chapters 76-140 -->
+		<dc:source>https://archive.org/details/worksofdumas15dumaiala</dc:source>
+		<!-- Volume 3, Louise de la Valliere chapters 141-207 -->
+		<dc:source>https://archive.org/details/worksofdumas16dumaiala</dc:source>
+		<!-- Man in the Iron Mask, Volume 4, chapters 208-267, Epilogue, Death of d'Artagnan -->
+		<dc:source>https://archive.org/details/worksofdumas17dumaiala</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
