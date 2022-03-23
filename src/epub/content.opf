@@ -38,13 +38,16 @@
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">France -- History -- Louis XIV, 1643-1715 -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Adventure stories</dc:subject>
+		<dc:subject id="subject-4">Swordsmen -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85061165</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008115096</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85001072</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2010115233</meta>
+		<meta property="se:subject">Adventure</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
@@ -69,43 +72,36 @@
 		<dc:source>https://books.google.com/books?id=Xt1DAAAAYAAJ</dc:source>
 		<!-- Vol 5, chapters 219-267, Epilogue, Death of d’Artagnan -->
 		<dc:source>https://books.google.com/books?id=6UVXAAAAYAAJ</dc:source>
-		<!-- Works of Alexandre Dumas, Peter Fenelon Collier, New York, 1893 -->
-		<!-- Volume 1, chapters 1-133 -->
-		<dc:source>https://archive.org/details/worksalexdumas03dumauoft</dc:source>
-		<!-- Volume 2, chapters 134-269, Epilogue, Death of d'Artagnan -->
-		<dc:source>https://archive.org/details/worksalexdumas04dumauoft</dc:source>
-		<!-- Dumas Romances, Handy Library Edition, Little Brown, 1898 -->
-		<!-- Volume 1, chapters 1-70 -->
-		<dc:source>https://archive.org/details/in.ernet.dli.2015.460891</dc:source>
-		<!-- Volume 2, chapters 71-132 -->
-		<dc:source>https://archive.org/details/in.ernet.dli.2015.460780</dc:source>
-		<!-- Volume 3, chapters 133-203 -->
-		<dc:source>https://archive.org/details/in.ernet.dli.2015.460924</dc:source>
-		<!-- Volume 4, chapters 204-269, Epilogue, Death of d'Dartagnan -->
-		<dc:source>https://archive.org/details/in.ernet.dli.2015.460835</dc:source>
-		<!-- Works of Alexandre Dumas, P.F. Collier and Son, New York, 1902 -->
-		<!-- Vicomte de Bragelonne, Volume 1, chapters 1-75 -->
-		<dc:source>https://archive.org/details/worksofdumas14dumaiala</dc:source>
-		<!-- Ten Years Later, Volume 2, chapters 76-140 -->
-		<dc:source>https://archive.org/details/worksofdumas15dumaiala</dc:source>
-		<!-- Louise de la Vallière, Volume 3, chapters 141-207 -->
-		<dc:source>https://archive.org/details/worksofdumas16dumaiala</dc:source>
-		<!-- Man in the Iron Mask, Volume 4, chapters 208-267, Epilogue, Death of d'Artagnan -->
-		<dc:source>https://archive.org/details/worksofdumas17dumaiala</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">The transcription was missing most diacritics. The above scans match the text of the transcription, but I used several others for reference.
+
+			The Romances of Alexandre Dumas, Handy Library Edition, Little Brown, 1898
+				Vol 1, chapters   1– 70, https://archive.org/details/in.ernet.dli.2015.460891
+				Vol 2, chapters  71–132, https://archive.org/details/in.ernet.dli.2015.460780
+				Vol 3, chapters 133–203, https://archive.org/details/in.ernet.dli.2015.460924
+				Vol 4, chapters 204–269, https://archive.org/details/in.ernet.dli.2015.460835
+
+			The Works of Alexandre Dumas, Peter Fenelon Collier, New York, 1893
+				Vol 1, chapters   1–133, https://archive.org/details/worksalexdumas03dumauoft
+				Vol 2, chapters 134–269, https://archive.org/details/worksalexdumas04dumauoft
+
+			The Works of Alexandre Dumas, P. F. Collier and Son, New York, 1902
+				Vol 1 (Vicomte de Bragelonne), chapters 1–75, https://archive.org/details/worksofdumas14dumaiala
+				Vol 2 (Ten Years Later), chapters 76–140, https://archive.org/details/worksofdumas15dumaiala
+				Vol 3 (Louise de la Vallière), chapters 141–207, https://archive.org/details/worksofdumas16dumaiala
+				Vol 4 (Man in the Iron Mask), chapters 208–267, https://archive.org/details/worksofdumas17dumaiala
+		</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Vicomte_of_Bragelonne:_Ten_Years_Later</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexandre-dumas_the-vicomte-de-bragelonne_george-routledge-and-co</meta>
 		<dc:creator id="author">Alexandre Dumas</dc:creator>
 		<meta property="file-as" refines="#author">Dumas, Alexandre</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Dumas Davy de la Pailleterie</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Alexandre_Dumas</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79042162</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">George Routledge and Co.</dc:contributor>
 		<meta property="file-as" refines="#translator">Co., George Routledge and</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">CONTRIBUTOR_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URI</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
@@ -114,13 +110,16 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">John Bursey</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Bursey, John</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
+		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
