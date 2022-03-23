@@ -58,6 +58,17 @@
 		<dc:source>https://www.gutenberg.org/ebooks/2710</dc:source>
 		<!-- The Man in the Iron Mask, chapters 209-269, Epilogue, Death of d'Artagnan -->
 		<dc:source>https://www.gutenberg.org/ebooks/2759</dc:source>
+		<!-- Dumas Romances, Estes and Lauriat, Boston, 1893 -->
+		<!-- Vol 1, chapters 1-56 -->
+		<dc:source>https://books.google.com/books?id=wQcEAAAAYAAJ</dc:source>
+		<!-- Vol 2, chapters 57-110 -->
+		<dc:source>https://books.google.com/books?id=QkZXAAAAYAAJ</dc:source>
+		<!-- Vol 3, chapters 111-162 -->
+		<dc:source>https://books.google.com/books?id=kUJKAQAAMAAJ</dc:source>
+		<!-- Vol 4, chapters 163-218 -->
+		<dc:source>https://books.google.com/books?id=Xt1DAAAAYAAJ</dc:source>
+		<!-- Vol 5, chapters 219-267, Epilogue, Death of d’Artagnan -->
+		<dc:source>https://books.google.com/books?id=6UVXAAAAYAAJ</dc:source>
 		<!-- Works of Alexandre Dumas, Peter Fenelon Collier, New York, 1893 -->
 		<!-- Volume 1, chapters 1-133 -->
 		<dc:source>https://archive.org/details/worksalexdumas03dumauoft</dc:source>
