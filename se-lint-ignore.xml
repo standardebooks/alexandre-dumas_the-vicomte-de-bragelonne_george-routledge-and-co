@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-22.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>D’Artagnan should be capitalized since it's the first word in the titles.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-52.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>D’Artagnan should be capitalized since it's the first word in the titles.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-87.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>Le Havre is the correct capitalization.</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>t-001</code>
+			<reason>The double spaces are in the production notes and are valid.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
