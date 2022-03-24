@@ -3,26 +3,47 @@
 
 /* dramatis personae */
 [epub|type~="z3998:dramatis-personae"]{
-        text-align: center;
+	text-align: center;
+}
+
+[epub|type~="z3998:dramatis-personae"] p{
+	text-indent: 0;
 }
 
 [epub|type~="z3998:dramatis-personae"] ul{
-        list-style: none;
-        margin: 0;
-        padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
-[epub|type~="z3998:dramatis-personae"] > ul > li{
-        font-variant: small-caps;
-        margin-top: 2em;
+[epub|type~="z3998:dramatis-personae"] ul li{
+	font-style: italic;
+	margin: 1em;
+}
+/* end of standard dramatis personae */
+
+[epub|type~="z3998:dramatis-personae"] ul li i{
+	font-style: normal;
 }
 
-[epub|type~="z3998:dramatis-personae"] ul > li > ul > li{
-        font-style: italic;
-        font-variant: normal;
-        margin: 1em;
+[epub|type~="z3998:dramatis-personae"] > p{
+	font-variant: small-caps;
+	margin-bottom: 2em;
 }
-/* end of dramatis personae */
+
+[epub|type~="z3998:dramatis-personae"] .group{
+	font-variant: small-caps;
+	font-style: normal;
+}
+
+[epub|type~="z3998:dramatis-personae"] p.group ~ ul{
+	margin-bottom: 1em;
+}
+
+[epub|type~="z3998:dramatis-personae"] p.group ~ ul > li{
+	margin: .5em;
+}
+/* end of custom dramatis personae */
 
 /* letters */
 [epub|type~="z3998:letter"] header{
