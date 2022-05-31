@@ -61,7 +61,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/2609</dc:source>
 		<!-- Ten Years Later, chapters 76-140 -->
 		<dc:source>https://www.gutenberg.org/ebooks/2681</dc:source>
-		<!-- Louise de la Vallière, chapters 141-208 -->
+		<!-- Louise de La Vallière, chapters 141-208 -->
 		<dc:source>https://www.gutenberg.org/ebooks/2710</dc:source>
 		<!-- The Man in the Iron Mask, chapters 209-269, Epilogue, Death of d'Artagnan -->
 		<dc:source>https://www.gutenberg.org/ebooks/2759</dc:source>
@@ -92,7 +92,7 @@
 			The Works of Alexandre Dumas, P. F. Collier and Son, New York, 1902
 				Vol 1 (Vicomte de Bragelonne), chapters 1–75, https://archive.org/details/worksofdumas14dumaiala
 				Vol 2 (Ten Years Later), chapters 76–140, https://archive.org/details/worksofdumas15dumaiala
-				Vol 3 (Louise de la Vallière), chapters 141–207, https://archive.org/details/worksofdumas16dumaiala
+				Vol 3 (Louise de La Vallière), chapters 141–207, https://archive.org/details/worksofdumas16dumaiala
 				Vol 4 (Man in the Iron Mask), chapters 208–267, https://archive.org/details/worksofdumas17dumaiala
 		</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
