@@ -88,3 +88,13 @@ footer{
 	display: none;
 }
 /* end of poem/verse/song */
+
+q{
+	font-style: italic;
+}
+
+q > em,
+q > i,
+q > strong{
+	font-style: normal;
+}
