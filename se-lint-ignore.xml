@@ -12,10 +12,46 @@
 			<reason>D’Artagnan should be capitalized since it's the first word in the titles.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-56.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>La Fontaine is the correct capitalization.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-87.xhtml">
 		<ignore>
 			<code>s-023</code>
 			<reason>Le Havre is the correct capitalization.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-93.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>La Fontaine is the correct capitalization.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-171.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>La Vallière is the correct capitalization.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-185.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>La Fontaine is the correct capitalization.</reason>
+		</ignore>
+	</file>
+	<file path="introduction.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>La Vallière is the correct capitalization.</reason>
+		</ignore>
+	</file>
+	<file path="part-2.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>La Vallière is the correct capitalization.</reason>
 		</ignore>
 	</file>
 	<file path="content.opf">
