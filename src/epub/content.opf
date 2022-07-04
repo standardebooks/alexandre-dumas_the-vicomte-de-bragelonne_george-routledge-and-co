@@ -51,9 +51,11 @@
 		<meta id="collection-1" property="belongs-to-collection">D’Artagnan Romances</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">3</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">The events of the early days of Louis XIV’s majority reign in France, including the continuing story of the four musketeers who served both his father (Louis XIII) and himself.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The last and longest of &lt;a href="https://standardebooks.org/ebooks/alexandre-dumas"&gt;Dumas’&lt;/a&gt; three &lt;a href="https://standardebooks.org/collections/dartagnan-romances"&gt;d’Artagnan&lt;/a&gt; novels, &lt;i&gt;The Vicomte de Bragelonne&lt;/i&gt; finds the four musketeers, Aramis, Athos, Porthos, and d’Artagnan, in their later years, and for the first time keeping secrets that are not to be shared with each other. Louis XIV is now an adult, and the regency of his mother is at an end. D’Artagnan is still his Lieutenant of Musketeers, Athos has raised his son Raoul (the Vicomte de Bragelonne of the title) to adulthood, and Aramis and Porthos are engaged in a mystery that is not touched on until well into the novel. There are adventures involving Charles II of England, the son of the doomed king the musketeers could not save from Cromwell in &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/alexandre-dumas/twenty-years-after/estes-and-lauriat"&gt;Twenty Years After&lt;/a&gt;&lt;/i&gt;, romances of Louis’ early court, intrigues involving Louis’ finance ministers, and, ultimately, Dumas’ fictional explanation of a centuries-long mystery involving an unidentified prisoner in the Bastille.&lt;/p&gt;
+			&lt;p&gt;The original French serialization of &lt;i&gt;The Vicomte de Bragelonne&lt;/i&gt; took three years because of the size of the work. English translations were typically divided into three, four, or occasionally as many as six, parts; in the three-volume editions, each volume had as many words as &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/alexandre-dumas/the-three-musketeers/william-robson"&gt;The Three Musketeers&lt;/a&gt;&lt;/i&gt;. This edition is presented in a single ebook.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Vicomte de Bragelonne&lt;/i&gt; brings a satisfying conclusion to one of the greatest adventure series of all time.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<!-- transcriptions -->

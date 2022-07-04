@@ -32,8 +32,8 @@
 }
 
 [epub|type~="z3998:dramatis-personae"] .group{
-	font-variant: small-caps;
 	font-style: normal;
+	font-variant: small-caps;
 }
 
 [epub|type~="z3998:dramatis-personae"] p.group ~ ul{
@@ -67,8 +67,8 @@ footer{
 
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
-	text-indent: 0;
 	text-align: initial;
+	text-indent: 0;
 }
 /* end of letters */
 
@@ -82,8 +82,8 @@ footer{
 [epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:song"] p > span + br,
