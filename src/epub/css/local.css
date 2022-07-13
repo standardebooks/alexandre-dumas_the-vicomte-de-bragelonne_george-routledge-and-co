@@ -1,6 +1,21 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+q{
+	font-style: italic;
+}
+
+/* Remove italics from italicized words nested in italicized thought... */
+q i,
+q em{
+	font-style: normal;
+}
+
+/* Unless the italicized thought contains no other words, in which case we keep italics */
+q.single-word i{
+	font-style: italic;
+}
+
 /* dramatis personae */
 [epub|type~="z3998:dramatis-personae"]{
 	text-align: center;

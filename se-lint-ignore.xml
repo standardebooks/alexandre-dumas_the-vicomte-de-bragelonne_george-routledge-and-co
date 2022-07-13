@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="*.xhtml">
+		<ignore>
+			<code>c-021</code>
+			<reason>Internal thoughts which are isolated non-English words are kept as italics to make it clear they are still internal thoughts.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-22.xhtml">
 		<ignore>
 			<code>s-023</code>
