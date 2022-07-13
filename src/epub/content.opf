@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/alexandre-dumas/the-vicomte-de-bragelonne/george-routledge-and-co</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-07-13T17:45:56Z</dc:date>
+		<meta property="dcterms:modified">2022-07-13T17:45:56Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -51,9 +51,10 @@
 		<meta id="collection-1" property="belongs-to-collection">D’Artagnan Romances</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">3</meta>
-		<dc:description id="description">The events of the early days of Louis XIV’s majority reign in France, including the continuing story of the four musketeers who served both his father (Louis XIII) and himself.</dc:description>
+		<dc:description id="description">The events of the early days of Louis XIV’s majority reign in France, including the continuing story of the four musketeers who served both Louis XIV’s father and himself.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The last and longest of &lt;a href="https://standardebooks.org/ebooks/alexandre-dumas"&gt;Dumas’&lt;/a&gt; three &lt;a href="https://standardebooks.org/collections/dartagnan-romances"&gt;d’Artagnan&lt;/a&gt; novels, &lt;i&gt;The Vicomte de Bragelonne&lt;/i&gt; finds the four musketeers, Aramis, Athos, Porthos, and d’Artagnan, in their later years, and for the first time keeping secrets that are not to be shared with each other. Louis XIV is now an adult, and the regency of his mother is at an end. D’Artagnan is still his Lieutenant of Musketeers, Athos has raised his son Raoul (the Vicomte de Bragelonne of the title) to adulthood, and Aramis and Porthos are engaged in a mystery that is not touched on until well into the novel. There are adventures involving Charles II of England, the son of the doomed king the musketeers could not save from Cromwell in &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/alexandre-dumas/twenty-years-after/estes-and-lauriat"&gt;Twenty Years After&lt;/a&gt;&lt;/i&gt;, romances of Louis’ early court, intrigues involving Louis’ finance ministers, and, ultimately, Dumas’ fictional explanation of a centuries-long mystery involving an unidentified prisoner in the Bastille.&lt;/p&gt;
+			&lt;p&gt;The last and longest of &lt;a href="https://standardebooks.org/ebooks/alexandre-dumas"&gt;Dumas’&lt;/a&gt; three &lt;a href="https://standardebooks.org/collections/dartagnan-romances"&gt;d’Artagnan&lt;/a&gt; novels, &lt;i&gt;The Vicomte de Bragelonne&lt;/i&gt; finds the four musketeers, Aramis, Athos, Porthos, and d’Artagnan, in their later years, and for the first time keeping secrets that are not to be shared with each other.&lt;/p&gt;
+			&lt;p&gt;Louis XIV is now an adult, and the regency of his mother is at an end. D’Artagnan is still his Lieutenant of Musketeers, Athos has raised his son Raoul (the Vicomte de Bragelonne of the title) to adulthood, and Aramis and Porthos are engaged in a mystery that is not touched on until well into the novel. There are adventures involving Charles II of England, the son of the doomed king the musketeers could not save from Cromwell in &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/alexandre-dumas/twenty-years-after/estes-and-lauriat"&gt;Twenty Years After&lt;/a&gt;&lt;/i&gt;, romances of Louis’ early court, intrigues involving Louis’ finance ministers, and, ultimately, Dumas’ fictional explanation of a centuries-long mystery involving an unidentified prisoner in the Bastille.&lt;/p&gt;
 			&lt;p&gt;The original French serialization of &lt;i&gt;The Vicomte de Bragelonne&lt;/i&gt; took three years because of the size of the work. English translations were typically divided into three, four, or occasionally as many as six parts; in the three-volume editions, each volume had as many words as &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/alexandre-dumas/the-three-musketeers/william-robson"&gt;The Three Musketeers&lt;/a&gt;&lt;/i&gt;. This edition is presented in a single ebook.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The Vicomte de Bragelonne&lt;/i&gt; brings a satisfying conclusion to one of the greatest adventure series of all time.&lt;/p&gt;
 		</meta>
@@ -104,8 +105,8 @@
 				Vol 3 (Louise de La Vallière), chapters 141–207, https://archive.org/details/worksofdumas16dumaiala
 				Vol 4 (Man in the Iron Mask), chapters 208–267, https://archive.org/details/worksofdumas17dumaiala
 		</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">719453</meta>
+		<meta property="se:reading-ease.flesch">71.24</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Vicomte_of_Bragelonne:_Ten_Years_Later</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexandre-dumas_the-vicomte-de-bragelonne_george-routledge-and-co</meta>
 		<dc:creator id="author">Alexandre Dumas</dc:creator>
@@ -148,6 +149,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">B. Timothy Keith</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Keith, B. Timothy</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://astart.ca</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
