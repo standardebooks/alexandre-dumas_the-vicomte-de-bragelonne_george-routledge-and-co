@@ -46,16 +46,17 @@ q.single-word i{
 	margin-bottom: 2em;
 }
 
-[epub|type~="z3998:dramatis-personae"] .group{
+[epub|type~="z3998:dramatis-personae"] .group,
+[epub|type~="z3998:dramatis-personae"] .group + li{
+	margin-top: 2em;
+}
+
+[epub|type~="z3998:dramatis-personae"] .group > p{
 	font-style: normal;
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:dramatis-personae"] p.group ~ ul{
-	margin-bottom: 1em;
-}
-
-[epub|type~="z3998:dramatis-personae"] p.group ~ ul > li{
+[epub|type~="z3998:dramatis-personae"] .group  li{
 	margin: .5em;
 }
 /* end of custom dramatis personae */
