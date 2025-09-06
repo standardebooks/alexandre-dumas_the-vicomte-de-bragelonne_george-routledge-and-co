@@ -48,6 +48,12 @@
 			<reason>La Fontaine is the correct capitalization.</reason>
 		</ignore>
 	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>t-001</code>
+			<reason>The double spaces are in the production notes and are valid.</reason>
+		</ignore>
+	</file>
 	<file path="introduction.xhtml">
 		<ignore>
 			<code>t-064</code>
@@ -58,12 +64,6 @@
 		<ignore>
 			<code>s-023</code>
 			<reason>La Vallière is the correct capitalization.</reason>
-		</ignore>
-	</file>
-	<file path="content.opf">
-		<ignore>
-			<code>t-001</code>
-			<reason>The double spaces are in the production notes and are valid.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
