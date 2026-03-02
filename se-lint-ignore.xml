@@ -1,68 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="*.xhtml">
-		<ignore>
-			<code>c-021</code>
+		<ignore code="c-021">
 			<reason>Internal thoughts which are isolated non-English words are kept as italics to make it clear they are still internal thoughts.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-22.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>D’Artagnan should be capitalized since it's the first word in the titles.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-52.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>D’Artagnan should be capitalized since it's the first word in the titles.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-56.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>La Fontaine is the correct capitalization.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-87.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>Le Havre is the correct capitalization.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-93.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>La Fontaine is the correct capitalization.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-171.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>La Vallière is the correct capitalization.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-185.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>La Fontaine is the correct capitalization.</reason>
 		</ignore>
 	</file>
 	<file path="content.opf">
-		<ignore>
-			<code>t-001</code>
+		<ignore code="t-001">
 			<reason>The double spaces are in the production notes and are valid.</reason>
 		</ignore>
 	</file>
 	<file path="introduction.xhtml">
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>La Vallière is the correct capitalization.</reason>
 		</ignore>
 	</file>
 	<file path="part-2.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>La Vallière is the correct capitalization.</reason>
 		</ignore>
 	</file>
