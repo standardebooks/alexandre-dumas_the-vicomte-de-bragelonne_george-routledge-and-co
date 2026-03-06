@@ -1,57 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="*.xhtml">
+	<file path="chapter-17.xhtml">
 		<ignore code="c-021">
+			<line>52</line>
 			<reason>Internal thoughts which are isolated non-English words are kept as italics to make it clear they are still internal thoughts.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-22.xhtml">
 		<ignore code="s-023">
+			<line>12</line>
 			<reason>D’Artagnan should be capitalized since it's the first word in the titles.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-52.xhtml">
 		<ignore code="s-023">
+			<line>12</line>
 			<reason>D’Artagnan should be capitalized since it's the first word in the titles.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-56.xhtml">
 		<ignore code="s-023">
+			<line>12</line>
 			<reason>La Fontaine is the correct capitalization.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-62.xhtml">
+		<ignore code="c-021">
+			<line>15</line>
+			<reason>Internal thoughts which are isolated non-English words are kept as italics to make it clear they are still internal thoughts.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-67.xhtml">
+		<ignore code="c-021">
+			<line>129</line>
+			<reason>Internal thoughts which are isolated non-English words are kept as italics to make it clear they are still internal thoughts.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-87.xhtml">
 		<ignore code="s-023">
+			<line>12</line>
 			<reason>Le Havre is the correct capitalization.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-93.xhtml">
 		<ignore code="s-023">
+			<line>12</line>
 			<reason>La Fontaine is the correct capitalization.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-142.xhtml">
+		<ignore code="c-021">
+			<line>26</line>
+			<reason>Internal thoughts which are isolated non-English words are kept as italics to make it clear they are still internal thoughts.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-171.xhtml">
 		<ignore code="s-023">
+			<line>12</line>
 			<reason>La Vallière is the correct capitalization.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-185.xhtml">
 		<ignore code="s-023">
+			<line>12</line>
 			<reason>La Fontaine is the correct capitalization.</reason>
 		</ignore>
 	</file>
 	<file path="content.opf">
 		<ignore code="t-001">
+			<line>84</line>
 			<reason>The double spaces are in the production notes and are valid.</reason>
 		</ignore>
 	</file>
 	<file path="introduction.xhtml">
 		<ignore code="t-064">
+			<line>11</line>
 			<reason>La Vallière is the correct capitalization.</reason>
 		</ignore>
 	</file>
 	<file path="part-2.xhtml">
 		<ignore code="s-023">
+			<line>15</line>
 			<reason>La Vallière is the correct capitalization.</reason>
 		</ignore>
 	</file>
