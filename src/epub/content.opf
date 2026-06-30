@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/alexandre-dumas/the-vicomte-de-bragelonne/george-routledge-and-co</dc:identifier>
 		<dc:date>2022-07-13T17:45:56Z</dc:date>
 		<meta property="dcterms:modified">2022-07-13T17:45:56Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -48,7 +49,7 @@
 		<meta property="term" refines="#subject-3">sh85001072</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2010115233</meta>
-		<meta property="se:subject">Adventure</meta>
+		<meta property="schema:genre">Adventure</meta>
 		<meta id="collection-1" property="belongs-to-collection">D’Artagnan Romances</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">3</meta>
@@ -81,56 +82,33 @@
 		<dc:source>https://books.google.com/books?id=Xt1DAAAAYAAJ</dc:source>
 		<!-- Vol 5, chapters 219-267, Epilogue, Death of d’Artagnan -->
 		<dc:source>https://books.google.com/books?id=6UVXAAAAYAAJ</dc:source>
-		<meta property="se:production-notes">The first volume of the transcription was missing all diacritics and italics (emphasis and non-English words); the other volumes were missing most of the diacritics and italics. All of these have been restored.
-		All but the first endnote appear to have been added by the transcribers (they do not exist in the scans), and some of them were extraneous (referring to multiple-volume editions) and have been removed. Others were placed away from what the note was referring; these references have been moved next to their referents.
-		For some inexplicable reason (no such change was made to any other character), Marie de Medici and Marie de Mancini were both referred to as "Mary" in the translation; as they are well-known historical persons, their actual names have been restored.
-		SEMoS specifies that internal thoughts that are quoted remain in quotes. However, in this edition, there are multiple instances where the same quote contains both internal thoughts and spoken words to another person. Having them in the same quote is confusing; after a discussion with the SE editor-in-chief, it was decided to override the SEMoS for the three D'Artagnan novels and convert all internal thoughts to italics. This was done where it was stated or clear from the context that the words were internal thoughts. There are other instances, e.g. where it says the person “murmured to themself,” or where it appears that “said to her/himself” means they actually talked out loud to themselves; those instances have been left as quotes.
-		As is common of books of the era in which this was written, there are far too many commas. It would make for a better edition if someone knowledgeable could go through and clean them up.
-		The translation also has a number of extremely long (1000+ word) paragraphs. They are much shorter in the French original; it would also make this edition more readable to have those long paragraphs broken up into multiple paragraphs.
-		It is clear from the transcription of all three d’Artagnan novels that at least one of the transcribers was familiar with French. All of them have corrections made in the transcription that are not in the English translation(s), but are in the original French. This includes the spelling of names, phrases missing from the translation, the occasional tense mismatch, etc. Changes that were confirmed as correct (from the original French) were left; the occasional change was found to be incorrect, and was corrected to match the English scans.
-		Also, while the original translation for Vicomte is the basis for all printed editions listed below, they all differ slightly by word changes made by the various editors, insufficient in quantity to be considered a new translation. In at least one case, the Vicomte transcription includes a paragraph from a different edition that was missing from the edition used for the transcription. This edition follows suit in at least one additional case (chapter 239) as well.
-		The above scans match the text of the transcription, but several others were used for reference, and the Introduction and Dramatis Personae were added from the Little Brown edition.
-			The Romances of Alexandre Dumas, Handy Library Edition, Little Brown, Boston, 1898
-				Vol 1, chapters   1– 70, https://archive.org/details/in.ernet.dli.2015.460891
-				Vol 2, chapters  71–132, https://archive.org/details/in.ernet.dli.2015.460780
-				Vol 3, chapters 133–203, https://archive.org/details/in.ernet.dli.2015.460924
-				Vol 4, chapters 204–269, https://archive.org/details/in.ernet.dli.2015.460835
-
-			The Works of Alexandre Dumas, Peter Fenelon Collier, New York, 1893
-				Vol 1, chapters   1–133, https://archive.org/details/worksalexdumas03dumauoft
-				Vol 2, chapters 134–269, https://archive.org/details/worksalexdumas04dumauoft
-
-			The Works of Alexandre Dumas, P. F. Collier and Son, New York, 1902
-				Vol 1 (Vicomte de Bragelonne), chapters 1–75, https://archive.org/details/worksofdumas14dumaiala
-				Vol 2 (Ten Years Later), chapters 76–140, https://archive.org/details/worksofdumas15dumaiala
-				Vol 3 (Louise de La Vallière), chapters 141–207, https://archive.org/details/worksofdumas16dumaiala
-				Vol 4 (Man in the Iron Mask), chapters 208–267, https://archive.org/details/worksofdumas17dumaiala
-		</meta>
-		<meta property="se:word-count">713211</meta>
-		<meta property="se:reading-ease.flesch">71.24</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Vicomte_of_Bragelonne:_Ten_Years_Later</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexandre-dumas_the-vicomte-de-bragelonne_george-routledge-and-co</meta>
+		<meta property="schema:wordCount">713211</meta>
+		<meta property="schema:educationalLevel">71.24</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Vicomte_of_Bragelonne:_Ten_Years_Later" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/alexandre-dumas_the-vicomte-de-bragelonne_george-routledge-and-co" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Alexandre Dumas</dc:creator>
 		<meta property="file-as" refines="#author">Dumas, Alexandre</meta>
-		<meta property="se:name.person.full-name" refines="#author">Dumas Davy de la Pailleterie</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Alexandre_Dumas</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79042162</meta>
+		<meta property="schema:alternateName" refines="#author">Dumas Davy de la Pailleterie</meta>
+		<link href="https://en.wikipedia.org/wiki/Alexandre_Dumas" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79042162.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">George Routledge and Co.</dc:contributor>
 		<meta property="file-as" refines="#translator">George Routledge and Co.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Routledge</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/nr90009397</meta>
+		<link href="https://en.wikipedia.org/wiki/Routledge" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr90009397.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="introduction">Little, Brown and Company</dc:contributor>
 		<meta property="file-as" refines="#introduction">Little, Brown and Company</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction">https://en.wikipedia.org/wiki/Little,_Brown_and_Company</meta>
-		<meta property="se:url.authority.nacoaf" refines="#introduction">http://id.loc.gov/authorities/names/n80020835</meta>
+		<link href="https://en.wikipedia.org/wiki/Little,_Brown_and_Company" refines="#introduction" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80020835.html" refines="#introduction" rel="schema:sameAs"/>
 		<meta property="role" refines="#introduction" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Rembrandt van Rijn</dc:contributor>
 		<meta property="file-as" refines="#artist">van Rijn, Rembrandt</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Rembrandt</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79142935</meta>
+		<link href="https://en.wikipedia.org/wiki/Rembrandt" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79142935.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">John Bursey</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Bursey, John</meta>
@@ -138,12 +116,12 @@
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -152,7 +130,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">B. Timothy Keith</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Keith, B. Timothy</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://astart.ca/</meta>
+		<link href="https://astart.ca/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
