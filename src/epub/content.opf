@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Vicomte de Bragelonne: Ten Years Later</dc:title>
 		<meta property="file-as" refines="#fulltitle">Vicomte de Bragelonne, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">France -- History -- Louis XIV, 1643-1715 -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Adventure stories</dc:subject>
